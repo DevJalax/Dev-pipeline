@@ -37,3 +37,7 @@ Check the AWS EC2 instance to ensure that it's running and accessible.
 Verify that the Docker container is running and the application is accessible.
 
 That's it! With these steps, you should be able to run the pipeline and deploy your application to AWS using Jenkins, Docker, Ansible, and Terraform.
+
+docker image -> git -> jenkins -> terraform -> ansible -> AWS ECR
+
+assuming we create docker image for each module and db also.
